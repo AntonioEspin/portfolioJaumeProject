@@ -1,0 +1,28 @@
+.header {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+}
+
+.header img {
+  height: fit-content;
+}
+
+.header button {
+  height: fit-content;
+  padding: 15px 30px;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.header__nav {
+  display: none;
+}

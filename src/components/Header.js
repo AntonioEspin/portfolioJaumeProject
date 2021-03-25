@@ -1,4 +1,5 @@
 import logo from '../assets/images/logo.png';
+import '../styles/components/Header.css';
 
 const Header = () => {
   const view = `
@@ -8,6 +9,7 @@ const Header = () => {
       <li>PROYECTOS</li>
       <li>HABLEMOS</li>
     </nav>
+    <button>CURRICULUM</button>
   `;
 
   return view;
