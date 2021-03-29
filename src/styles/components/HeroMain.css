@@ -25,7 +25,7 @@
   grid-column: 1 / 2;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .hero__info h2 {
@@ -36,4 +36,25 @@
 .hero__info h1 {
   font-size: 4.8rem;
   color: var(--blue-color);
+}
+
+.hero__info p {
+  font-size: 1.6rem;
+  color: var(--blue-color);
+}
+
+.hero__info button {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--blue-color);
+  color: white;
+  padding: 15px 0;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hero__info--nav {
+  display: flex;
+  justify-content: space-between;
+  width: 225px;
 }

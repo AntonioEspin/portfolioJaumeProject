@@ -20,7 +20,7 @@ html {
 .main {
   display: grid;
   grid-template-columns: 5% auto 5%;
-  grid-template-rows: 85px 710px 485px auto 710px 180px;
+  grid-template-rows: 85px 710px 485px auto 600px 180px;
   grid-auto-flow: column;
   width: 100%;
   height: auto;
