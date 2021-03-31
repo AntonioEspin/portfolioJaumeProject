@@ -3,6 +3,7 @@ import Hero from './components/HeroMain.js';
 import Presentation from './components/Presentation.js';
 import Projects from './components/Projects.js';
 import FormMain from './components/FormMain.js';
+import Footer from './components/Footer.js';
 import './styles/main.css';
 
 (
@@ -12,10 +13,12 @@ import './styles/main.css';
     const presentation = document.getElementById('presentation')
     const projects = document.getElementById('projects');
     const formMain = document.getElementById('mainForm');
+    const footer = document.getElementById('footer');
     header.innerHTML = await Header();
     hero.innerHTML = await Hero();
     presentation.innerHTML = await Presentation()
     projects.innerHTML = await Projects();
     formMain.innerHTML = await FormMain();
+    footer.innerHTML = await Footer();
   }
 )();

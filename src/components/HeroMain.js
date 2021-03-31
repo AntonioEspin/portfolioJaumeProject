@@ -24,7 +24,7 @@ const Hero = () => {
           <img src="${iconTwitter}" alt="icon-twitter"/>
         </a>
       </nav>
-      <button>Descargar Curriculum</button>
+      <button>DESCARGAR CURRICULUM</button>
     </section>
     <figure class="hero__img">
       <img src="${photoPerson}" alt="person´s photograph"/>
