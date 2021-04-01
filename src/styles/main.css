@@ -20,7 +20,7 @@ html {
 .main {
   display: grid;
   grid-template-columns: 5% auto 5%;
-  grid-template-rows: 85px 550px 485px auto 600px 250px;
+  grid-template-rows: 85px 750px 485px auto 600px 250px;
   grid-auto-flow: column;
   width: 100%;
   height: auto;
@@ -34,6 +34,10 @@ html {
 }
 
 @media screen and (min-width: 1020px) {
+
+  .main {
+    grid-template-rows: 85px 550px 485px auto 600px 250px;
+  }
   .header {
     justify-content: flex-start;
   }
